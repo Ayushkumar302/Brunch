@@ -1,0 +1,80 @@
+.navbar {
+  height: 110px;
+  background-color: white;
+}
+
+.navbar  {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+.nav-options a{
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.nav-options a:hover{
+    color: rgba(252,206,83,255);
+    transition:   all .4s ease-in-out;
+}
+#logo-nav{
+    width: 88px;
+    height: 86px;
+}
+
+
+/* top */
+
+.top{
+    position: relative;
+    background-image: url("/assets/header/Shape.png");
+    height: 110vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.top-content{
+    padding-top: 100px;
+}
+.top-content #content-first{
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.top-content #content-second{
+font-size: 0.9rem;
+font-weight: 400;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+ #top-btn{
+    font-size: 1em;
+    background-color:#fcce53 ;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    box-shadow: 4px 4px 0px 0px rgba(252,206,83,255);
+/* border-radius: 50px;
+cursor: pointer;
+transition: all .3s ease 0s; */
+ 
+    
+}
+
+#top-btn:hover{
+/* background-color: #fcd56b; */
+transform: scale(1.05);
+transition: all 0.3s ease 0s;
+}
+
+.top-img img{
+    width: 600px;
+    height: 600px;
+}

@@ -1,0 +1,40 @@
+.body-two{
+    position: relative;
+    background-image: url("/assets/body2/Shape.png");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+}
+
+
+.body-two-content{
+    padding-top: 150px;
+    padding-left: 200px;
+}
+.body-two-content #bodytwo-content-first{
+    font-size: 4em;
+    font-weight: bold;
+}
+.body-two-content #bodytwo-content-second{
+font-size: 1.3rem;
+font-weight: 400;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+.body-two img{
+    width: 100;
+    height: 100vh;
+}
