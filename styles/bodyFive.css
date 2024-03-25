@@ -1,0 +1,51 @@
+.body-five{
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   margin-bottom: 100px;
+}
+
+
+video{
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    overflow: hidden; /* Ensures the shadow doesn't overflow */
+    object-fit: cover;
+
+}
+
+
+.body5-first{
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.body5-second{
+    font-size: 0.9rem;
+    font-weight:500;
+    margin-bottom: 30px;
+
+}
+
+
+
+.body5-third i {
+    font-size: 30px;
+    margin: 0 10px; 
+ 
+  }
+ 
+
+#facebook{
+    color: rgb(0, 162, 255) ;
+}
+
+#insta{
+    color: rgb(227, 88, 134);
+}
+
+/* contact us */
+
