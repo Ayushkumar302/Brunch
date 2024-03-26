@@ -6,11 +6,12 @@
     justify-content: space-evenly;
     align-items: center;
    margin-bottom: 100px;
+   
 }
 
 
 video{
-    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
 
     overflow: hidden; /* Ensures the shadow doesn't overflow */
     object-fit: cover;

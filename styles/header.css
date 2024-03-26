@@ -29,6 +29,7 @@
 /* top */
 
 .top{
+    
     position: relative;
     background-image: url("/assets/header/Shape.png");
     height: 110vh;
@@ -64,6 +65,7 @@ margin-bottom: 20px;
 /* border-radius: 50px;
 cursor: pointer;
 transition: all .3s ease 0s; */
+transition: all 0.3s ease 0s;
  
     
 }
@@ -71,10 +73,11 @@ transition: all .3s ease 0s; */
 #top-btn:hover{
 /* background-color: #fcd56b; */
 transform: scale(1.05);
-transition: all 0.3s ease 0s;
 }
 
 .top-img img{
     width: 600px;
     height: 600px;
 }
+
+
